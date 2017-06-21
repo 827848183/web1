@@ -1,0 +1,69 @@
+*{margin: 0;padding: 0;}
+body{font-size: 17px;line-height: 21px;color: #5c5758;font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif;}
+a{text-decoration: none;}
+li{list-style-type: none;}
+#all{margin: 0 auto;width: 1200px;overflow: hidden;}
+#head{}
+	#logo{height: 60px; }
+	#logo img{margin: 15px 0px 0px 25px;float: left;}
+	#logo form{float: right;position: relative;right: 40px;top: 15px;}
+		#search{width: 172px;height: 26px;line-height: 26px;padding: 0px 0px;float:left;box-sizing: border-box;}
+		#searchbtn{background: url(../images/search_btn.png) 5px 5px no-repeat;height: 26px;width: 26px;float: right;position: absolute;}
+	#logo ul{position: relative;top: 21px;left: 680px;}
+	#logo ul li{display: inline;margin: 0 5px;}
+	#logo ul li a{color:#5C5770;}
+
+	#meun{background-image: url(../images/slide01.png);height: 560px;background-position: center bottom;background-repeat: no-repeat;}
+	#meun img{position: absolute;left: 150px;top: 445px;}
+	#meun span{position: absolute;left: 150px;top: 550px;}
+	#meun span img{position: absolute;left: 250px;top: 0px;}
+	#meun span p{color: #ffffff;font-size: 20px;}
+		#banner{background-image: url(../images/meunbg.png);height: 46px; background-repeat: no-repeat;position: relative;left: 176px;top:10px;}
+		#banner ul{height: 46px;}
+		#banner ul li{display: inline-block;position: relative;left: 80px;padding: 13px 20px 9px 20px;}
+		#banner ul li a{color: #ffffff;font-size: 17px;line-height: 25px;}
+		#banner ul li:hover{background-color: #E53D24;}
+#cent{background-color: #E5E6E7;}
+	#about{height: 430px;background-image: url(../images/home_about_bg.png);background-repeat: no-repeat;background-position: center;}
+	#about p{font-size: 21px;color: #ffffff;padding:60px 0 0 55px; }
+	#about img{margin: 30px 0px 0 55px;}
+	
+	#dichan{border-bottom: 2px #A5A5A5 solid;height: 450px;}
+	#dichan a p{color: #F98900;font-size: 33px;line-height: 74px; font-weight: bolder; text-align: center;border-bottom: 2px #A5A5A5 solid;margin:20px 0 3px 0;padding: 0px 0 0px 0;}
+	#dichan p{color: #5C5770;text-align: left;font-size: 21px;line-height: 30px;margin:20px 0  10px 0;padding: 10px 10px;}
+	#dichan img{float: left;margin: 20px 10px 10px 50px;}
+
+	#sea{border-bottom: 2px #A5A5A5 solid;height: 450px;}
+	#sea a p{color: #0043C1;font-size: 33px;line-height: 74px; font-weight: bolder; text-align: center;border-bottom: 2px #A5A5A5 solid;margin:20px 0 3px 0;padding: 0px 0 0px 0;}
+	#sea p{color: #5C5770;text-align: left;font-size: 21px;line-height: 30px;margin:20px 0  10px 0;padding: 10px 10px;}
+	#sea img{float: left;margin: 20px 10px 10px 50px;}
+
+	#air{height: 500px;border-bottom: 2px #A5A5A5 solid;}
+	#air a p{color: #009FEB;font-size: 33px;line-height: 74px; font-weight: bolder; text-align: center;border-bottom: 2px #A5A5A5 solid;margin:20px 0 3px 0;padding: 0px 0 0px 0;}
+	#air p{color: #5C5770;text-align: left;font-size: 21px;line-height: 30px;margin:15px 0  10px 0;padding: 10px 10px;}
+	#air img{float: left;margin: 20px 10px 10px 50px;}
+
+	#xiaoxi{height: 500px;}
+	#xiaoxi a p{color: #009b00;font-size: 33px;line-height: 74px; font-weight: bolder; text-align: center;border-bottom: 2px #A5A5A5 solid;margin:20px 0 3px 0;padding: 0px 0 0px 0;}
+	#xiaoxi img{float: left;margin: 20px 10px 10px 50px;}
+	#xiaoxi ul{display: block;}
+	#xiaoxi ul li{display: block;}
+	#xiaoxi ul li a{font-size: 21px;line-height: 21px;color: #009b00;float: left;padding: 25px 0 0px 50px;width: 700px;}
+
+	#fazhan{background-image: url(../images/index.png);height: 600px;margin-bottom: 20px;}
+	#fazhan h1{color: #ffffff;padding:50px 0px 30px 80px;}
+	#fazhan p{color: #ffffff;padding: 0px 0px 0px 80px;font-size: 19px;}
+		#tubiao{position: relative;left: 500px;top: 130px;}
+		#tubiao ul{}
+		#tubiao ul li{display: inline-block;}
+		#tubiao ul li a img{margin: 0 10px 0 10px;}
+		#tubiao ul li a p{position: relative;top: 40px;right: 40px;}
+#cent span{margin-left:550px;}
+#img{margin:0 0px 0 20px;}
+
+#foot{text-align: center;background-color:#E5E6E7;padding-top: 30px;}
+#foot ul{margin: 0px 0px 30px 0px;  }
+#foot ul li{display: inline;margin:0 0px;padding:0 50px;}
+#foot ul li a{color: #5c5758;font-weight:bold;font-size: 20px;}
+#foot p{background-color:#302F2D;color: #ffffff;font-size: 10px;}
+.no{border-right: 2px #5c5758 solid;list-style-image: url();}

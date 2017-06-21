@@ -1,0 +1,61 @@
+*{margin: 0;padding: 0;}
+body{font-size: 17px;line-height: 21px;color: #5c5758;font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif;}
+a{text-decoration: none;}
+li{list-style-type: none;}
+#all{margin: 0 auto;width: 1200px;overflow: hidden;}
+#head{}
+	#logo{height: 60px; }
+	#logo img{margin: 15px 0px 0px 25px;float: left;}
+	#logo form{float: right;position: relative;right: 40px;top: 15px;}
+		#search{width: 172px;height: 26px;line-height: 26px;padding: 0px 0px;float:left;box-sizing: border-box;}
+		#searchbtn{background: url(../images/search_btn.png) 5px 5px no-repeat;height: 26px;width: 26px;float: right;position: absolute;}
+	#logo ul{position: relative;top: 21px;left: 680px;}
+	#logo ul li{display: inline;margin: 0 5px;}
+	#logo ul li a{color:#5C5770;}
+	#meun{background-image: url(../images/overview_banner.png);height: 410px;background-position: center bottom;background-repeat: no-repeat;}
+		#banner{background-image: url(../images/meunbg.png);height: 46px; background-repeat: no-repeat;position: relative;left: 176px;top:10px;}
+		#banner ul{height: 46px;}
+		#banner ul li{display: inline-block;position: relative;left: 80px;padding: 13px 20px 9px 20px;}
+		#banner ul li a{color: #ffffff;font-size: 17px;line-height: 25px;}
+		#banner ul li:hover{background-color: #E53D24;}
+#cent{background-color:#E5E6E7;}
+	#mianbao{padding: 20px 0 0 10px;}
+	#mianbao a{color:#5c5758;}
+	#zong{border-bottom: 3px #a5a5a5 solid;border-left: 20px;}
+	#zong h1{color: #0C2C84;text-align: center;padding:80px 0 0px 0;}
+	#zong h3{color: #0C2C84;font-size: 21px;margin:0 0 25px 0px;line-height: 21px;padding: 40px 200px;}
+	#zong p{font-size: 18px;line-height: 21px;font-weight: bold; margin-bottom: 15px;padding: 0px 200px 50px 200px;}
+
+	#zongbu{height: 550px; margin:20px 0 0 0;background-image: url(../images/overview_map.png) ;background-repeat: no-repeat;background-position: center;border-bottom: 3px #a5a5a5 solid;}
+	#zongbu h1{color: #0C2C84;text-align: center;padding:50px 0 0px 0;}
+	#zongbu h2{color: #0C2C84;padding: 0 100px;}
+	#zongbu h3{font-size: 18px;line-height: 21px;font-weight: bold; margin-bottom: 15px;padding: 100px 200px 0px 200px;}
+
+	#zhuxi{height: 550px;border-bottom: 3px #a5a5a5 solid;margin-bottom:20px;}
+	#zhuxi h1{color: #0C2C84;text-align: center;padding:40px 0 0px 0;}
+	#zhuxi h3{color: #0C2C84;text-align: center;padding:30px 0 30px 0;border-bottom: 3px #a5a5a5 solid;}
+	#zhuxi img{float: left;margin: 30px 10px 10px 100px;}
+	#zhuxi p{font-size: 18px;line-height: 21px;margin:30px 0 20px 0;font-weight: bold;padding: 0 150px 0 0;}
+	#list{}
+	#list h1{color: #0C2C84;text-align: center;padding:0px 0 20px 0;border-bottom: 3px #a5a5a5 solid;margin-bottom: 20px;}
+    .commentList .avatar{border: 1px solid transparent;float: left;}
+    .comment-main{position:relative;margin-left:64px;border:1px solid #dedede;border-radius:2px;width: 500px;margin:10px;}
+        .comment-header{padding:10px 15px;background:#f8f8f8;border-bottom:1px solid #eee}
+        .comment-meta{font-size:13px;color:#999;line-height:1.2}
+        .comment-meta a{color:#999;}
+        .comment-author{font-weight:700;color:#999;}
+        .comment-body{padding:15px;overflow:hidden}
+ 		#d1{display: inline-block; width: 500px;}
+ 		#d2{float: right; width: 500px;}
+ 		#d2 form{text-align: center;}
+ 		#text{width: 400px;height: 300px;font-weight: lighter;color: ;box-sizing: border-box;}
+ 		#submit{}
+#cent span{margin-left:550px;}
+#img{margin:0 0px 0 20px;}
+
+#foot{text-align: center;background-color:#E5E6E7;padding-top: 30px;}
+#foot ul{margin: 0px 0px 30px 0px;  }
+#foot ul li{display: inline;margin:0 0px;padding:0 50px;}
+#foot ul li a{color: #5c5758;font-weight:bold;font-size: 20px;}
+#foot p{background-color:#302F2D;color: #ffffff;font-size: 10px;}
+.no{border-right: 2px #5c5758 solid;}
